@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ha_mqtt_device_manager.client:build:production"
+              "buildTarget": "ha_mqtt_device_manager.client:build:production"
             },
             "development": {
-              "browserTarget": "ha_mqtt_device_manager.client:build:development"
+              "buildTarget": "ha_mqtt_device_manager.client:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ha_mqtt_device_manager.client:build"
+            "buildTarget": "ha_mqtt_device_manager.client:build"
           }
         },
         "test": {
