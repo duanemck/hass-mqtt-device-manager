@@ -1,0 +1,6 @@
+@HA_MQTT_Device_Manager.Server_HostAddress = http://localhost:5003
+
+GET {{HA_MQTT_Device_Manager.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
